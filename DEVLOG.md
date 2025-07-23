@@ -24,9 +24,33 @@
 
 -   Initialize `dev-notes` repository and project structure
 
-## 2025-07-22
+## 📅 2025-07-22
 
 -   Created repository `dev-notes`
 -   Defined folder structure and base files
 -   Prepared to start project `Vault` tomorrow
 -   Set up README, snippets and notes sections
+
+## 📅 2025-07-23
+
+### ✅ Milestones Completed:
+- Created project `Vault` (secret manager) repo
+- Implemented Flask backend with:
+  - JWT Auth
+  - SQLAlchemy ORM
+  - CRUD for secrets
+- Protected routes with decorators
+- Encrypted secret values in DB
+- Created unit tests:
+  - Auth flow
+  - CRUD (create, patch, delete)
+  - Negative paths: auth required, owner-only, etc.
+- Refactored tests for modularity
+- Bootstrap README.md and all reference docs
+
+---
+
+### 🔧 Next Steps:
+- Add Docker setup
+- Setup Postgres instead of SQLite
+- Optional: Add CLI / basic frontend
