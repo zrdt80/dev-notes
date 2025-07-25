@@ -48,8 +48,9 @@
 - Refactored tests for modularity
 - Bootstrap README.md and all reference docs
 
-## 2025-07-24 and 25 🚀 Deployment & Finalization Phase
+## 📅 2025-07-24 & 2025-07-25 
 
+### 🚀 Deployment & Finalization Phase
 - ✅ Completed production deployment:
   - Backend deployed on **Render**
   - Frontend deployed on **Vercel**
